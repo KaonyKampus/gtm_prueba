@@ -1,0 +1,120 @@
+/*index*/
+
+
+
+.titulo_principal{
+    color: black;
+    text-align: center;
+    background-color: aqua;
+    padding: 10px;
+}
+
+.body{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+
+}
+
+
+.product_box{
+    width: 15%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 5px;
+    gap: 10px;
+}
+
+
+.image{
+    width: 100%;
+}
+
+form {
+    width: 300px;
+    padding: 20px;
+    background-color: #08335e;
+    color: beige;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(165, 165, 165, 0.1);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+  }
+
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja_compra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px
+
+}
+
+#compra{
+  width: 500px;
+  background-color: #28a745;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+#compra:hover{
+background-color: #218838;
+transform: scale(1.05);
+}
+
+
+#add_to_cart{
+    background-color: #ff9800;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+#add-cart:hover {
+    background-color: #e68900;
+    transform: scale(1.05);
+  }
+
+
+.gracias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.im_gracias{
+    width: 500px;
+}
